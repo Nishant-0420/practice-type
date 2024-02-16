@@ -22,14 +22,14 @@
                 padding: 0.20rem 0.5rem;
                 font-size: smaller;
             }
-            .btn-bottom{
-                border-bottom: 1px solid rgb(216, 96, 57) !important;
+            #custom-button{
+                border-bottom: 7px solid rgb(11, 5, 197) !important;
             }
             .custom-color{
                 color: rgba(75, 245, 14, 0.749);
             }
             .my-img{
-                object-fit:cover !important;
+                object-fit:cover;
                 height: 150px;
                 width: 150px;
             }
@@ -41,32 +41,34 @@
         
         <main>
            <div class="container">
-            <div class="row shadow p-4 my-5">
-                <div class="col-sm-3">
-                    <img src="https://cdn11.bigcommerce.com/s-k11cg5mzh9/images/stencil/500x659/products/437/153669/fc0078efc5dd4e2b579dd153ea420bc4865818c9cfeab31652d4e20abdd9a3ee__47830.1707030105.png?c=2" class="my-img" alt="">
+            <div class="row shadow p-4 my-5 ">
+                <div class="col-sm-4 mx-auto ">
+                    <!-- card-img-top is a class to make img responsive -->
+                    <img class="card-img-top" src="https://t4.ftcdn.net/jpg/03/28/37/93/360_F_328379347_xEKgEB2wkjAJmcqSTmrg4uKxfWrlL7D9.jpg" class="my-img" alt="">
                 </div>
-                <div class="col-sm-6">
-                    <div class="btn btn-dark rounded-pill mb-2">Free shipping</div>
+                <div class="col-sm-6 mx-auto ">
+                    <div class="btn btn-dark rounded-pill my-2">Free shipping</div>
                     <div class="h3">Razer Kraken Kitty Edt Gaming Headset Quartz</div>
                     <br>
                     <s>1599,-</s>
                     <div class="h1">799,-</div>
-                    <div class="p fw-light fz-">The offer is valid until April 3 or as long as stock lasts!</div>
+                    <div class=" fw-light">The offer is valid until April 3 or as long as stock lasts!</div>
                     <br>
-                    <button type="button" class="btn btn-primary w-100 p-2 " style="border-bottom: 1px solid red !important;" id="custom-button">Add to cart</button><br>
+                    <button type="button" class="btn btn-primary w-100 p-2 "  id="custom-button">Add to cart</button><br>
                     
                     <div class="p mt-2 "><i class=" fa-solid fa-circle custom-color pe-2 " ></i>50+ pcs. in stock</div><br>
-                    <div class="mx-auto"> 
-                        <button class="btn btn-light btn-outline-secondary p-2 me-2 fw-bold"><i class="fa-solid fa-scale-balanced px-2"></i>Add to card</button>
-                        <button class="btn btn-light btn-outline-secondary p-2 fw-bold"><i class="fa-regular fa-heart px-2"></i>Add to wishlist</button>
+                    <div class="row gy-2"> 
+                        <button class="btn btn-light btn-outline-secondary p-2 me-2 fw-bold col-sm-5"><i class="fa-solid fa-scale-balanced px-2"></i>Add to card</button>
+                        <button class="btn btn-light btn-outline-secondary p-2 fw-bold col-sm-5 "><i class="fa-regular fa-heart px-2"></i>Add to wishlist</button>
                     </div>
                     
                     </div>
                     
-                </div>
             </div>
            </div>
+           
         </main>
+        
         
         <!-- Bootstrap JavaScript Libraries -->
         <script
