@@ -57,3 +57,25 @@ function isPerfectNumber(num) {
 
 console.log(isPerfectNumber(28)); //  28 = 1+2+4+7 + 14)
 console.log(isPerfectNumber(12)); 
+
+
+
+
+let a=10.01
+let b="10.45"
+console.log(parseInt(a))
+console.log(parseFloat(a))
+console.log(parseInt(b))
+console.log(parseFloat(b))
+
+function add(a,b){
+    return a+b
+}
+ let s=add(69,69)
+ console.log(s)
+
+ console.log("end")
+
+
+
+
