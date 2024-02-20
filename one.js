@@ -1,14 +1,8 @@
-const greet = (name) => {
-    return `Hello, ${name}!`;
-};
-var g=greet("megha")
-console.log(g)
-
-const g2 = function(name) {
-    return `Hello, ${name}!`;
-};
-
-console.log(g2('vaibhav')); 
+const a=10
+console.log(a)
+ a =20
+console.log(a)
+console.log(a)
 
 
 
