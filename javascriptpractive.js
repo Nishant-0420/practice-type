@@ -77,5 +77,18 @@ function add(a,b){
  console.log("end")
 
 
+//  multiple array operations
+// map and filter will create a new array 
+num=[23,45,66,22,468,9,7,4,64,3]
+const l=num.map(element => element*2);
+console.log(l)
+
+const f=num.filter( n=> n>100)
+console.log(f)
+
+// map modifies each element but keeps the length of the array the same, filter selectively removes elements based on a condition, potentially resulting in a shorter array.
+
+
+
 
 
