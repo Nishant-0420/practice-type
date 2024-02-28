@@ -3,7 +3,12 @@ const students = [
     { name: 'Bob', score: 90 },
     { name: 'Charlie', score: 75 },
     { name: 'David', score: 95 },
-    { name: 'Eva', score: 88 }
+    { name: 'Eva', score: 88 },
+    { name: 'A', score: 79 },
+    { name: 'B', score: 50 },
+    { name: 'C', score: 65 },
+    { name: 'D', score: 85 },
+    { name: 'E', score: 88 }
   ];
   
 // average score
@@ -47,6 +52,11 @@ function bright(){
  }
  console.log(bright())
  
+
+// get names of those who got between 90-69
+const n=students.filter(n=>n.score>69 && n.score<90)
+console.log(n.map(n=>n.name))
+console.log("--------");
 
 
 
