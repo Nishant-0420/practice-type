@@ -5,6 +5,13 @@ const students = [
     { name: 'David', score: 95 },
     { name: 'Eva', score: 88 }
   ];
+
+  // get the names of those who got 90+
+  function bright(){
+   const g=students.filter(n=>n.score>90)
+   return g.map(e=>e.name)
+  }
+  console.log(bright())
   
 // average score
 function avgscore(students){
@@ -26,6 +33,7 @@ const library = [
   ];
 
 //   function to return book title with max pages.
+
 function longestBook(library) {
     const pagesArray = library.map(book => book.pages); //map and filter can be used like this
     // map basically takes any particular value from object or array and transfer to other
