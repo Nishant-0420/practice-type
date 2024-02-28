@@ -40,7 +40,13 @@ console.log(longestBook(library));
 // array with this max value i filter that object with max pages and then from that i return book title.
 
 
-
+// get the names of those who got 90+
+function bright(){
+  const g=students.filter(n=>n.score>90)
+  return g.map(e=>e.name)
+ }
+ console.log(bright())
+ 
 
 
 
