@@ -23,6 +23,9 @@ function avgscore(students){
     return c/students.length
 }
 console.log(avgscore(students))
+// get names of those who got between 90-69
+const n=students.filter(n=>n.score>69 && n.score<90)
+console.log(n.map(n=>n.name))
 
 const library = [
     { title: 'The Great Gatsby', author: 'F. Scott Fitzgerald', pages: 180 },
