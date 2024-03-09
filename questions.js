@@ -24,7 +24,7 @@ console.log(avgscore(students))
 
 
 const library = [
-    { title: 'The Great khali', author: 'F. Scott Fitzgerald', pages: 180 },
+    { title: 'The Great khali', author: ' Scotch', pages: 180 },
     { title: 'To Kill a stoner', author: 'Harper Lee', pages: 281 },
     { title: '1984', author: 'George Orwell', pages: 328 },
     { title: 'Pride and Prejudice', author: 'Jane Austen', pages: 432 },
