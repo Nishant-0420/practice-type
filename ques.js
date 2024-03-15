@@ -58,7 +58,7 @@ const student = [
   { name: 'Eva', score: 88 }
 ];
 
-// get the names of those who got 90+
+// get the names of those who got 69+
 function bright(){
  const g=student.filter(n=>n.score>69)
  return g.map(e=>e.name)
