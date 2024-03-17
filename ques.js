@@ -55,7 +55,7 @@ const student = [
   { name: 'Bob', score: 90 },
   { name: 'Charlie', score: 74 },
   { name: 'David', score: 95 },
-  { name: 'Eva', score: 88 }
+  { name: 'Eva', score: 89 }
 ];
 
 // get the names of those who got 69+
