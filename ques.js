@@ -53,7 +53,7 @@ console.log(longestBook(library));
 const student = [
   { name: 'Alice', score: 88 },
   { name: 'Bob', score: 90 },
-  { name: 'Charlie', score: 75 },
+  { name: 'Charlie', score: 74 },
   { name: 'David', score: 95 },
   { name: 'Eva', score: 88 }
 ];
