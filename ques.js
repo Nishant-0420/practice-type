@@ -63,7 +63,6 @@ function bright(){
  const g=student.filter(n=>n.score>69)
  return g.map(e=>e.name)
 }
-
 console.log(bright())
 
 
