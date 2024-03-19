@@ -54,7 +54,7 @@ const student = [
   { name: 'Alice', score: 88 },
   { name: 'Bob', score: 90 },
   { name: 'Charlie', score: 74 },
-  { name: 'David', score: 95 },
+  { name: 'David', score: 99 },
   { name: 'Eva', score: 89 }
 ];
 
