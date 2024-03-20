@@ -3,7 +3,7 @@ function g1(name) {
     return `Hello, ${name}!`;
 }
 
-console.log(g1('rohan')); // Output: Hello, rohan!
+console.log(g1('stonner')); // Output: Hello, rohan!
 
 
 // function expression type 2
