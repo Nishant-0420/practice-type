@@ -11,14 +11,14 @@ const g2 = function(name) {
     return `Hello, ${name}!`;
 };
 
-console.log(g2('vaibhav')); 
+console.log(g2('vaibhav yadav')); 
 
 // arrow function
 const greet = (name) => {
     return `Hello, ${name}!`;
 };
 
-console.log(greet('megha')); 
+console.log(greet('megha prashar')); 
 
 
 
