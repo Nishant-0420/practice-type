@@ -11,7 +11,7 @@ const g2 = function(name) {
     return `Hello, ${name}!`;
 };
 
-console.log(g2('vaibhav yadav')); 
+console.log(g2('vaibhav yadav ')); 
 
 // arrow function
 const greet = (name) => {
