@@ -39,7 +39,7 @@ function isPalindrome(num) {
 
 console.log(isPalindrome(123454321)); 
 console.log(isPalindrome(123321123321));
-console.log(isPalindrome(1233455667));
+console.log(isPalindrome(12334667));
 
 // perfect no. code
 function isPerfectNumber(num) {
