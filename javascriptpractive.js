@@ -18,7 +18,7 @@ const greet = (name) => {
     return `Hello, ${name}!`;
 };
 
-console.log(greet('megha prashar ')); 
+console.log(greet('megha prashar')); 
 
 
 
