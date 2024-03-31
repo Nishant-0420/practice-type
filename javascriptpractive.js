@@ -74,7 +74,7 @@ function add(a,b){
  let s=add(69,69)
  console.log(s)
 
- console.log("end")
+ console.log("end  ")
 
 
 //  multiple array operations
