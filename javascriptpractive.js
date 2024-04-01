@@ -79,7 +79,7 @@ function add(a,b){
 
 //  multiple array operations
 // map and filter will create a new array 
-num=[23,45,66,22,468,69,7,4,64,3]
+num=[23,45,66,22,468,69,4,64,3]
 const l=num.map(element => element*2);
 console.log(l)
 
